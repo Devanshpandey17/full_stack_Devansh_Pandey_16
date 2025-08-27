@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us</title>
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f9fa; 
+      color: hsl(210, 30%, 20%); 
+      margin: 30px;
+    }
+
+    
+    .main-heading {
+      color: rgb(16, 77, 163); 
+      text-align: center;
+    }
+
+    
+    #mission {
+      background-color: rgba(255, 205, 56, 0.2);
+      border-left: 6px solid #ffcd38;
+      padding: 1em;
+      margin: 2em 0;
+    }
+
+    
+    a[href^="mailto"] {
+      color: #21a179;
+      font-weight: bold;
+      text-decoration: underline dotted;
+    }
+
+   
+    nav a:hover {
+      background-color: hsl(144, 56%, 84%);
+      color: #2376ae;
+      transition: background 0.3s;
+    }
+
+    
+    p::first-line {
+      font-weight: bold;
+      font-size: 1.1em;
+      color: rgb(16, 77, 163);
+    }
+
+   
+    ul.movies {
+      list-style-type: circle;
+      margin-top: 30px;
+    }
+    .favorite-movie {
+      color: #d7263d;      
+      background: rgba(255,243,243,0.8); 
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-weight: 700;
+      box-shadow: 0 2px 6px #d7263d33;
+    }
+
+    
+    ol.cities {
+      list-style-type: upper-roman;
+      margin-top: 30px;
+    }
+    
+    ol.cities li:nth-child(1) {
+      color: #ff7f11;        
+      font-size: 1.2em;
+      font-style: italic;
+    }
+    ol.cities li:nth-child(2) {
+      background: hsl(202, 64%, 90%);
+      border-left: 5px solid #115ff7;
+      padding-left: 12px;
+    }
+    ol.cities li:nth-child(3) {
+      color: rgb(43, 160, 15);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">About</a> |
+    <a href="#mission">Mission</a> |
+    <a href="mailto:info@company.com">Contact</a>
+  </nav>
+
+  <h1 class="main-heading" id="about">About Us</h1>
+  <p>
+    We are committed to providing exceptional solutions for our clients, blending innovation and experience.<br>
+    Our team is dedicated to maintaining the highest ethical standards and delivering measurable success.
+  </p>
+
+  <section id="mission">
+    <h2>Our Mission</h2>
+    <p>
+      Empower organizations with cutting-edge technology, fostering growth and positive change.<br>
+      Contact us at <a href="mailto:info@company.com">info@company.com</a>.
+    </p>
+  </section>
+
+  <h3>Favorite Movies</h3>
+  <ul class="movies">
+    <li>Inception</li>
+    <li class="favorite-movie">Spirited Away</li>
+    <li>Interstellar</li>
+    <li>The Godfather</li>
+  </ul>
+
+  <h3>Cities to Visit</h3>
+  <ol class="cities">
+    <li>London</li>
+    <li>Barcelona</li>
+    <li>New York</li>
+  </ol>
+</body>
+</html>
